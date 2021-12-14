@@ -1,5 +1,5 @@
 {:title "A Post"
- :layout :post
+ :layout :post-b
  :tags  ["not fetch"]}
 
 ### This Post Not Fetch Enough

@@ -1,0 +1,37 @@
+--> /blog/posts-output/2014-03-10-first-post/
+                            clojure.main.main            main.java:  40
+                                          ...                          
+                            clojure.main/main             main.clj: 616
+                            clojure.main/main             main.clj: 664
+                        clojure.main/null-opt             main.clj: 542
+                      clojure.main/initialize             main.clj: 508
+                        clojure.main/init-opt             main.clj: 477
+                     clojure.main/load-script             main.clj: 475
+                                          ...                          
+                                 user/eval140            REPL Input    
+                                          ...                          
+                           cryogen.core/-main             core.clj:   7
+   cryogen-core.compiler/compile-assets-timed         compiler.clj: 695
+   cryogen-core.compiler/compile-assets-timed         compiler.clj: 696
+   cryogen-core.compiler/compile-assets-timed         compiler.clj: 699
+cryogen-core.compiler/compile-assets-timed/fn         compiler.clj: 700
+         cryogen-core.compiler/compile-assets         compiler.clj: 672
+          cryogen-core.compiler/compile-posts         compiler.clj: 373
+            cryogen-core.compiler/render-file         compiler.clj: 336
+                                          ...                          
+                    selmer.parser/render-file           parser.clj: 122
+                    selmer.parser/render-file           parser.clj: 140
+                                          ...                          
+                          selmer.parser/parse           parser.clj: 329
+                          selmer.parser/parse           parser.clj: 357
+                     selmer.parser/parse-file           parser.clj: 327
+                                          ...                          
+   selmer.template-parser/preprocess-template  template_parser.clj: 251
+   selmer.template-parser/preprocess-template  template_parser.clj: 252
+         selmer.template-parser/read-template  template_parser.clj: 192
+      selmer.template-parser/read-template/fn  template_parser.clj: 226
+            selmer.template-parser/read-block  template_parser.clj: 116
+                                          ...                          
+         selmer.template-parser/consume-block  template_parser.clj:  52
+         selmer.template-parser/consume-block  template_parser.clj:  67
+java.lang.NullPointerException: Cannot invoke "java.lang.StringBuilder.append(Object)" because "buf" is null
